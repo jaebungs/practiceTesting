@@ -1,6 +1,7 @@
 import { test, expect } from 'vitest'
 import { generateToken, generateTokenPromise } from './async-example'
 
+// Using callback
 // use done for async code test
 // use try catch and pass err into done for the proper fail message
 test('it should generate a token value', (done) => {
